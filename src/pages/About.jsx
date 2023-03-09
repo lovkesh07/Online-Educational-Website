@@ -5,6 +5,7 @@ import AboutUs from "../components/About-us/AboutUs";
 const About = () => {
   return (
     <>
+    
     <AboutUs/>
     {/* <Footer /> */}
     </>

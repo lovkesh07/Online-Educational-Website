@@ -3,10 +3,12 @@
   height: 80px;
   position: fixed;
   line-height: 80px;
-  background: linear-gradient(45deg,rgb(247, 9, 49) ,rgb(125, 9, 250));
+  /* background: linear-gradient(45deg,rgb(247, 9, 49) ,rgb(125, 9, 250)); */
   z-index: 999;
-  /* box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px; */
-  /* backdrop-filter: blur(10px); */
+  position: fixed;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  backdrop-filter: blur(20px);
+  margin-bottom: 30px;
 }
 
 .nav__list {
@@ -60,7 +62,10 @@
     z-index: 99;
     display: none;
   }
-
+  .header {
+    background: linear-gradient(45deg,rgb(247, 9, 49) ,rgb(125, 9, 250));
+    backdrop-filter: blur(20px);
+  }
   .nav__list {
     position: absolute;
     background: rgb(242, 159, 250);

@@ -33,7 +33,8 @@ forget to store somewhere here we are present to help you store all medical-rela
                   width="100%"
                   height="350px"
                 />
-              ) : (
+              ) 
+              : (
                 <img src={chooseImg} alt="" className="w-100" />
               )}
 
@@ -49,7 +50,38 @@ forget to store somewhere here we are present to help you store all medical-rela
           </Col>
         </Row>
       </Container>
+      <div className="cc">
+
+      <div className="cardcc">
+        <h1>Why Choose Us</h1>
+        <details className="warningcc">
+          <summary>Facts and knowledge about COVID-19</summary>
+          <p>Some text to be hidden.</p> 
+          <p>Some text to be hidden.</p> 
+          <p>Some text to be hidden.</p> 
+          <p>Some text to be hidden.</p> 
+        </details>
+        <details className="infocc" open>
+          <summary>For the public</summary>
+          <p>Social distance, quarantine and isolation</p>
+          <p>Hand hygiene, cough etiquette, cleaning and laundry</p>
+          <p>When children have acute respiratory tract infections</p>
+          <p>Risk groups and their relatives</p>
+        </details>
+        <details className="alertcc">
+          <summary>Facts and knowledge about COVID-19</summary>
+          <p>Some text to be hidden.</p> 
+          <p>Some text to be hidden.</p> 
+          <p>Some text to be hidden.</p> 
+          <p>Some text to be hidden.</p> 
+        </details>
+      </div>
+
+      </div>
     </section>
+
+
+   
   );
 };
 

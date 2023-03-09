@@ -1,29 +1,37 @@
 import React, { useRef } from "react";
 import { Container } from "reactstrap";
 import "./header.css";
+// import contactUs from "../contactus/contactUs";
 
 const navLinks = [
   {
     display: "Home",
-    url: "#",
+    url: "/",
+    path:"/",
+    // to : "/",
   },
   {
     display: "About Us",
-    url: "#",
+    url: "/about",
+    path:"/about",
+    // to:"/about",
   },
 
+  {
+    display: "Sponsors",
+    url: "/sponsors",
+    path:"/sponsors",
+  },
+  {
+    display: "Contact Us",
+    url: "/contacUs",
+    path:"/contacUs",
+    // to:"/contact",
+  },
   // {
   //   display: "Courses",
   //   url: "#",
   // },
-  {
-    display: "Somethins",
-    url: "#",
-  },
-  {
-    display: "Contact Us",
-    url: "#",
-  },
 ];
 
 const Header = () => {
@@ -54,7 +62,7 @@ const Header = () => {
 
             <div className="nav__right">
               <p className="mb-0 d-flex align-items-center gap-2">
-                <i class="ri-phone-line"></i> +00 0123456789
+                <i class="ri-phone-line"></i> Log In / Log Out
               </p>
             </div>
           </div>
